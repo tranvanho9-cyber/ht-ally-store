@@ -2,9 +2,14 @@
   "meta": {
     "website": "https://example.com",
     "support_email": "support@example.com",
-    "notices": ["Chào mừng đến với @HT Ally."]
+    "notices": [
+      "Chào mừng đến với @HT Ally."
+    ]
   },
-  "hub": { "rbz_prefix": "HT_Ally", "notes": "" },
+  "hub": {
+    "rbz_prefix": "HT_Ally",
+    "notes": ""
+  },
   "plugins": [
     {
       "id": "dc_explode",
@@ -15,16 +20,6 @@
       "loader": "dc_explode.rb",
       "folder": "dc_explode",
       "rbz_prefix": "dc_explode"
-    },
-    {
-  "id": "ten_plugin",
-  "name": "Tên hiển thị",
-  "desc": "Mô tả ngắn một hai câu.",
-  "category": "Dựng hình",
-  "price": 0,
-  "loader": "ten_plugin.rb",
-  "folder": "ten_plugin",
-  "rbz_prefix": "ten_plugin"
-}
+    }
   ]
 }
