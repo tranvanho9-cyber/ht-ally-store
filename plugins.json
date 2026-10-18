@@ -20,6 +20,16 @@
       "loader": "dc_explode.rb",
       "folder": "dc_explode",
       "rbz_prefix": "dc_explode"
+    },
+    {
+      "id": "cat_doi",
+      "name": "@Cắt đôi",
+      "desc": "Cắt đôi ván/tấm (kể cả component DC), chọn nhiều tấm, khoá hướng cắt theo trục, cắt 2 điểm, bắt điểm.",
+      "category": "Dựng hình",
+      "price": 0,
+      "loader": "HT_CatDoiTam.rb",
+      "folder": "HT_CatDoiTam",
+      "rbz_prefix": "Cat_Doi"
     }
   ]
 }
