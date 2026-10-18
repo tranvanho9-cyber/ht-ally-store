@@ -17,6 +17,17 @@
       "folder": "dc_explode",
       "version": "5.3.1",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/dc_explode_v5_3_1.rbz"
+    },
+    {
+      "id": "cat_doi",
+      "name": "@Cắt đôi",
+      "desc": "Cắt đôi ván/tấm (kể cả component DC), chọn nhiều tấm, khoá hướng cắt theo trục, cắt 2 điểm, bắt điểm.",
+      "category": "Dựng hình",
+      "price": 0,
+      "loader": "HT_CatDoiTam.rb",
+      "folder": "HT_CatDoiTam",
+      "version": "1.14.12",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/Cat_Doi_v1_14_12.rbz"
     }
   ]
 }
