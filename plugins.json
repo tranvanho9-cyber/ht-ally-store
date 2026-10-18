@@ -15,6 +15,16 @@
       "loader": "dc_explode.rb",
       "folder": "dc_explode",
       "rbz_prefix": "dc_explode"
-    }
+    },
+    {
+  "id": "ten_plugin",
+  "name": "Tên hiển thị",
+  "desc": "Mô tả ngắn một hai câu.",
+  "category": "Dựng hình",
+  "price": 0,
+  "loader": "ten_plugin.rb",
+  "folder": "ten_plugin",
+  "rbz_prefix": "ten_plugin"
+}
   ]
 }
