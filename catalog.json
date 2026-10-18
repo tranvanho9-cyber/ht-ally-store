@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "website": "https://example.com",
+    "support_email": "support@example.com",
+    "notices": [
+      "Chào mừng đến với @HT Ally."
+    ]
+  },
+  "plugins": [
+    {
+      "id": "dc_explode",
+      "name": "@dc explode",
+      "desc": "Rã Dynamic Component đến group/component cuối cùng, dọn nét thừa, xóa tấm trùng, tự động xoay vân.",
+      "category": "Dựng hình",
+      "price": 0,
+      "loader": "dc_explode.rb",
+      "folder": "dc_explode",
+      "version": "5.3.1",
+      "rbz_url": "https://raw.githubusercontent.com/USER/REPO/main/rbz/dc_explode_v5_3_1.rbz"
+    }
+  ]
+}

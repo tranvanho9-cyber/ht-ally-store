@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+"""Sinh catalog.json từ plugins.json + các file .rbz trong rbz/.
+
+Quy ước tên file: <rbz_prefix>_v<số>_<số>_<số>.rbz  (vd dc_explode_v5_3_2.rbz).
+Với mỗi plugin lấy bản có số phiên bản CAO NHẤT -> version + rbz_url trong catalog.
+Chạy tự động bằng GitHub Actions mỗi khi bạn đưa file .rbz mới lên (xem .github/workflows).
+Chạy tay:  python tools/build_catalog.py --base https://raw.githubusercontent.com/USER/REPO/main
+"""
+import argparse, json, os, re, sys, urllib.parse
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+def latest(prefix, files):
+    pat = re.compile(r'^' + re.escape(prefix) + r'_v(\d+(?:_\d+)*)\.rbz$', re.I)
+    best = None
+    for f in files:
+        m = pat.match(f)
+        if not m:
+            continue
+        ver = tuple(int(x) for x in m.group(1).split('_'))
+        if best is None or ver > best[0]:
+            best = (ver, f)
+    return best
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--base', default=os.environ.get('BASE_URL', ''))
+    a = ap.parse_args()
+    base = a.base.rstrip('/')
+    if not base and os.environ.get('GITHUB_REPOSITORY'):
+        branch = os.environ.get('GITHUB_REF_NAME', 'main')
+        base = 'https://raw.githubusercontent.com/%s/%s' % (os.environ['GITHUB_REPOSITORY'], branch)
+    if not base:
+        sys.exit('Thiếu --base (địa chỉ gốc chứa thư mục rbz/)')
+
+    src = json.load(open(os.path.join(ROOT, 'plugins.json'), encoding='utf-8'))
+    files = os.listdir(os.path.join(ROOT, 'rbz'))
+
+    def url(fname):
+        return base + '/rbz/' + urllib.parse.quote(fname)
+
+    meta = dict(src.get('meta', {}))
+    hub = src.get('hub')
+    if hub:
+        b = latest(hub['rbz_prefix'], files)
+        if b:
+            meta['hub'] = {'version': '.'.join(map(str, b[0])), 'rbz_url': url(b[1]), 'notes': hub.get('notes', '')}
+
+    out = []
+    for p in src['plugins']:
+        b = latest(p['rbz_prefix'], files)
+        if not b:
+            print('! Bỏ qua %s: không có file %s_vX_Y_Z.rbz trong rbz/' % (p['id'], p['rbz_prefix']))
+            continue
+        e = {k: v for k, v in p.items() if k != 'rbz_prefix'}
+        e['version'] = '.'.join(map(str, b[0]))
+        if int(e.get('price', 0)) <= 0:
+            e['rbz_url'] = url(b[1])
+        else:
+            e['rbz_url'] = ''  # có phí: link tải do máy chủ bản quyền trả về
+        out.append(e)
+        print('%s -> %s' % (p['id'], b[1]))
+
+    json.dump({'meta': meta, 'plugins': out}, open(os.path.join(ROOT, 'catalog.json'), 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=2)
+    print('Đã ghi catalog.json (%d plugin)' % len(out))
+
+
+if __name__ == '__main__':
+    main()
