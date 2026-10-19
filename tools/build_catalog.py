@@ -94,17 +94,19 @@ def main():
     out = []
     for p in plugins:
         b = latest(p['rbz_prefix'], files)
-        if not b:
-            print('! Bỏ qua %s: không có file %s_vX_Y_Z.rbz trong rbz/' % (p['id'], p['rbz_prefix']))
+        paid = int(p.get('price', 0)) > 0
+        if not b and not (paid and p.get('version')):
+            print('! Bỏ qua %s: không có file %s_vX_Y_Z.rbz trong rbz/ (plugin có phí cần khai báo "version" trong plugins.json)' % (p['id'], p['rbz_prefix']))
             continue
         e = {k: v for k, v in p.items() if k != 'rbz_prefix'}
-        e['version'] = '.'.join(map(str, b[0]))
+        # Plugin có phí: file nằm ở kho riêng, version khai báo tay trong plugins.json
+        e['version'] = str(p['version']) if (paid and p.get('version')) else '.'.join(map(str, b[0]))
         if int(e.get('price', 0)) <= 0:
             e['rbz_url'] = url(b[1])
         else:
             e['rbz_url'] = ''  # có phí: link tải do máy chủ bản quyền trả về
         out.append(e)
-        print('%s -> %s' % (p['id'], b[1]))
+        print('%s -> %s' % (p['id'], b[1] if b else '(kho riêng, version %s)' % e['version']))
 
     json.dump({'meta': meta, 'plugins': out}, open(os.path.join(ROOT, 'catalog.json'), 'w', encoding='utf-8'),
               ensure_ascii=False, indent=2)
