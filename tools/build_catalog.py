@@ -105,6 +105,8 @@ def main():
             e['rbz_url'] = url(b[1])
         else:
             e['rbz_url'] = ''  # có phí: link tải do máy chủ bản quyền trả về
+        if not e.get('icon') and os.path.isfile(os.path.join(ROOT, 'icons', p['id'] + '.png')):
+            e['icon'] = base + '/icons/' + urllib.parse.quote(p['id']) + '.png'
         out.append(e)
         print('%s -> %s' % (p['id'], b[1] if b else '(kho riêng, version %s)' % e['version']))
 
