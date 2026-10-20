@@ -17,7 +17,8 @@
       "loader": "dc_explode.rb",
       "folder": "dc_explode",
       "version": "5.4.1",
-      "rbz_url": ""
+      "rbz_url": "",
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/dc_explode.png"
     },
     {
       "id": "cat_doi",
@@ -28,7 +29,8 @@
       "loader": "HT_CatDoiTam.rb",
       "folder": "HT_CatDoiTam",
       "version": "1.14.12",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/Cat_Doi_v1_14_12.rbz"
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/Cat_Doi_v1_14_12.rbz",
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/cat_doi.png"
     }
   ]
 }
