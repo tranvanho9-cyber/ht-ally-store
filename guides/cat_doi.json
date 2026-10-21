@@ -1,0 +1,25 @@
+{
+  "title": "Hướng dẫn @Cắt đôi",
+  "steps": [
+    {
+      "title": "Chọn tấm cần cắt",
+      "text": "Chọn một hoặc nhiều ván/tấm (kể cả component Dynamic Component).",
+      "image": "cat_doi_1.png"
+    },
+    {
+      "title": "Bấm icon @Cắt đôi",
+      "text": "Bấm icon @Cắt đôi trên thanh công cụ để bật công cụ.",
+      "image": "cat_doi_2.png"
+    },
+    {
+      "title": "Chọn điểm cắt",
+      "text": "Click hai điểm để xác định đường cắt. Công cụ tự bắt điểm, có thể khóa hướng cắt theo trục.",
+      "image": "cat_doi_3.png"
+    },
+    {
+      "title": "Kết quả",
+      "text": "Tấm được cắt đôi theo đường đã chọn, giữ nguyên các tấm còn lại.",
+      "image": "cat_doi_4.png"
+    }
+  ]
+}

@@ -107,6 +107,17 @@ def main():
             e['rbz_url'] = ''  # có phí: link tải do máy chủ bản quyền trả về
         if not e.get('icon') and os.path.isfile(os.path.join(ROOT, 'icons', p['id'] + '.png')):
             e['icon'] = base + '/icons/' + urllib.parse.quote(p['id']) + '.png'
+        gp = os.path.join(ROOT, 'guides', p['id'] + '.json')
+        if not e.get('guide') and os.path.isfile(gp):
+            try:
+                g = json.load(open(gp, encoding='utf-8'))
+                for st in g.get('steps', []):
+                    im = str(st.get('image', '')).strip()
+                    if im and not im.startswith('http'):
+                        st['image'] = base + '/guides/' + urllib.parse.quote(im)
+                e['guide'] = g
+            except Exception as ex:
+                print('! Không đọc được %s: %s' % (gp, ex))
         out.append(e)
         print('%s -> %s' % (p['id'], b[1] if b else '(kho riêng, version %s)' % e['version']))
 

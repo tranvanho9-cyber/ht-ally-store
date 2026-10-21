@@ -1,0 +1,25 @@
+{
+  "title": "Hướng dẫn @dc explode",
+  "steps": [
+    {
+      "title": "Chọn đối tượng",
+      "text": "Chọn một hoặc nhiều Group / Component (kể cả Dynamic Component) cần rã.",
+      "image": "dc_explode_1.png"
+    },
+    {
+      "title": "Bấm icon @dc explode",
+      "text": "Bấm icon @dc explode trên thanh công cụ (hoặc trong menu Extensions).",
+      "image": "dc_explode_2.png"
+    },
+    {
+      "title": "Kết quả",
+      "text": "Plugin rã đến group/component cuối cùng, dọn nét thừa, xóa tấm trùng và tự động xoay vân.",
+      "image": "dc_explode_3.png"
+    },
+    {
+      "title": "Tùy chọn thêm",
+      "text": "Bật/tắt \"Tự xoay vân sau khi rã\" và \"Xóa tấm trùng nhau sau khi rã\". Có thể dùng thêm \"Đảo vân 90°\" và \"Kiểm tra & xóa tấm trùng\" cho đối tượng đang chọn.",
+      "image": "dc_explode_4.png"
+    }
+  ]
+}

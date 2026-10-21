@@ -2,7 +2,7 @@ name: Cập nhật catalog
 on:
   workflow_dispatch:
   push:
-    paths: ['rbz/**', 'icons/**', 'tools/**', 'plugins.json', '.github/workflows/catalog.yml']
+    paths: ['rbz/**', 'icons/**', 'guides/**', 'tools/**', 'plugins.json', '.github/workflows/catalog.yml']
 permissions:
   contents: write
 jobs:
