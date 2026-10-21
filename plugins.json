@@ -1,11 +1,10 @@
 {
   "meta": {
-    "website": "https://example.com",
-    "support_email": "support@example.com",
     "notices": [
       "Chào mừng đến với @HT Ally."
     ],
-    "license_api_url": "https://ht-license.tranvanho9.workers.dev"
+    "license_api_url": "https://ht-license.tranvanho9.workers.dev",
+    "support_zalo": "0908019530"
   },
   "hub": {
     "rbz_prefix": "HT_Ally",
