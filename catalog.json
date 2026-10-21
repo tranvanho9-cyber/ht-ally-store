@@ -18,7 +18,32 @@
       "folder": "dc_explode",
       "version": "5.4.1",
       "rbz_url": "",
-      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/dc_explode.png"
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/dc_explode.png",
+      "guide": {
+        "title": "Hướng dẫn @dc explode",
+        "steps": [
+          {
+            "title": "Chọn đối tượng",
+            "text": "Chọn một hoặc nhiều Group / Component (kể cả Dynamic Component) cần rã.",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/dc_explode_1.png"
+          },
+          {
+            "title": "Bấm icon @dc explode",
+            "text": "Bấm icon @dc explode trên thanh công cụ (hoặc trong menu Extensions).",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/dc_explode_2.png"
+          },
+          {
+            "title": "Kết quả",
+            "text": "Plugin rã đến group/component cuối cùng, dọn nét thừa, xóa tấm trùng và tự động xoay vân.",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/dc_explode_3.png"
+          },
+          {
+            "title": "Tùy chọn thêm",
+            "text": "Bật/tắt \"Tự xoay vân sau khi rã\" và \"Xóa tấm trùng nhau sau khi rã\". Có thể dùng thêm \"Đảo vân 90°\" và \"Kiểm tra & xóa tấm trùng\" cho đối tượng đang chọn.",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/dc_explode_4.png"
+          }
+        ]
+      }
     },
     {
       "id": "cat_doi",
@@ -30,7 +55,32 @@
       "folder": "HT_CatDoiTam",
       "version": "1.14.12",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/Cat_Doi_v1_14_12.rbz",
-      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/cat_doi.png"
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/cat_doi.png",
+      "guide": {
+        "title": "Hướng dẫn @Cắt đôi",
+        "steps": [
+          {
+            "title": "Chọn tấm cần cắt",
+            "text": "Chọn một hoặc nhiều ván/tấm (kể cả component Dynamic Component).",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/cat_doi_1.png"
+          },
+          {
+            "title": "Bấm icon @Cắt đôi",
+            "text": "Bấm icon @Cắt đôi trên thanh công cụ để bật công cụ.",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/cat_doi_2.png"
+          },
+          {
+            "title": "Chọn điểm cắt",
+            "text": "Click hai điểm để xác định đường cắt. Công cụ tự bắt điểm, có thể khóa hướng cắt theo trục.",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/cat_doi_3.png"
+          },
+          {
+            "title": "Kết quả",
+            "text": "Tấm được cắt đôi theo đường đã chọn, giữ nguyên các tấm còn lại.",
+            "image": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/guides/cat_doi_4.png"
+          }
+        ]
+      }
     }
   ]
 }
