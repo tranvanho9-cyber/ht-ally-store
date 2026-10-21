@@ -1,18 +1,39 @@
-# Kho plugin cho @HT Ally
+<div align="center">
 
-## Cập nhật plugin (mỗi lần chỉ 1 thao tác)
-1. Vào repo trên github.com -> thư mục `rbz` -> **Add file > Upload files**.
-2. Kéo file `.rbz` mới vào (tên dạng `dc_explode_v5_3_2.rbz`, số phiên bản ở cuối) -> **Commit changes**.
-3. Xong. GitHub tự tạo lại `catalog.json` sau ~30 giây. @HT Ally ở máy người dùng tự hiện nút **Cập nhật**.
+# HT Ally
 
-Không cần sửa `catalog.json`, không cần đóng lại @HT Ally.
+**Trung tâm plugin SketchUp** · cài đặt, cập nhật và quản lý plugin ngay trong SketchUp
 
-## Thêm plugin mới
-Sửa `plugins.json` (thêm 1 khối giống `dc_explode`), rồi đưa file `.rbz` của nó vào `rbz/`.
-`loader` và `folder` phải đúng tên bên trong file .rbz (vd `dc_explode.rb` và `dc_explode`).
+[**Tải HT Ally**](https://github.com/tranvanho9-cyber/ht-ally-store/tree/main/rbz) · [Trang giới thiệu](https://tranvanho9-cyber.github.io/ht-ally-store/) · [Hỗ trợ qua Zalo](https://zalo.me/0908019530)
 
-## Cập nhật chính @HT Ally
-Đưa `HT_Ally_v1_x_y.rbz` vào `rbz/` cùng cách trên; Ally tự báo có bản mới.
+</div>
 
-## Kho này
-Tài khoản: tranvanho9-cyber · Kho: ht-ally-store · catalog: https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/catalog.json
+---
+
+## HT Ally làm được gì
+
+| | |
+|---|---|
+| **Kho plugin** | Xem, cài đặt và gỡ plugin chỉ bằng một cú bấm, không cần tải tay từng file. |
+| **Cập nhật tự động** | Có bản mới là báo ngay, cập nhật một hoặc tất cả plugin. |
+| **Dùng thử và mua** | Plugin có phí cho dùng thử, thanh toán bằng mã QR, mở khóa tự động sau khi chuyển khoản. |
+| **Thanh công cụ riêng** | Gom icon của mọi plugin vào một thanh gọn gàng, lưu và dùng lại mỗi lần mở SketchUp. |
+| **Thông báo** | Báo tính năng mới và bản cập nhật của từng plugin. |
+
+## Cài đặt
+
+1. Tải file `HT_Ally_v….rbz` mới nhất trong thư mục [`rbz`](rbz).
+2. Trong SketchUp: **Window ▸ Extension Manager ▸ Install Extension**, chọn file vừa tải.
+3. Khởi động lại SketchUp nếu được yêu cầu, rồi mở **HT Ally** từ thanh công cụ.
+
+> Nếu SketchUp hỏi về extension chưa ký (*unidentified extension*), chọn **Yes** để cho phép tải.
+
+Yêu cầu: SketchUp **2020 trở lên** (Windows).
+
+## Hỗ trợ
+
+Cần giúp hoặc báo lỗi: nhắn Zalo **[0908019530](https://zalo.me/0908019530)** hoặc mở trang **Góp ý & báo lỗi** ngay trong HT Ally.
+
+---
+
+<sub>© Hồ Trần. Mọi quyền được bảo lưu.</sub>
