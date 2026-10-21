@@ -9,7 +9,7 @@
   "plugins": [
     {
       "id": "dc_explode",
-      "name": "@dc explode",
+      "name": "dc explode",
       "desc": "Rã Dynamic Component đến group/component cuối cùng, dọn nét thừa, xóa tấm trùng, tự động xoay vân.",
       "category": "Dựng hình",
       "price": 2000,
@@ -46,7 +46,7 @@
     },
     {
       "id": "cat_doi",
-      "name": "@Cắt đôi",
+      "name": "Cắt đôi",
       "desc": "Cắt đôi ván/tấm (kể cả component DC), chọn nhiều tấm, khoá hướng cắt theo trục, cắt 2 điểm, bắt điểm.",
       "category": "Dựng hình",
       "price": 0,
