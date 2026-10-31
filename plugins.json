@@ -34,6 +34,18 @@
       "rbz_prefix": "HT_dung_hinh",
       "min_su": 2020,
       "changelog": "Thêm cổng giấy phép cho công cụ Rã DC (hiện miễn phí)."
+    },
+    {
+      "id": "ht_kiem_tra",
+      "name": "HT kiểm tra",
+      "desc": "Kiểm tra ván ABF: lỗi, vượt khổ, loại ván. Đồng bộ Nesting và Model theo ID, chọn tấm, xem thông tin, tìm ID.",
+      "category": "Kiểm tra",
+      "price": 0,
+      "loader": "HTKiemTra.rb",
+      "folder": "HTKiemTra",
+      "rbz_prefix": "HTKiemTra",
+      "min_su": 2020,
+      "changelog": "Thêm cổng giấy phép (hiện miễn phí)."
     }
   ]
 }
