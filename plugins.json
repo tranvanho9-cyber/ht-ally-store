@@ -22,6 +22,18 @@
       "rbz_prefix": "HT_vat_lieu",
       "min_su": 2020,
       "changelog": "Thêm cổng giấy phép (hiện miễn phí). Tô màu nhanh hơn, giao diện đồng bộ, ghi log lỗi."
+    },
+    {
+      "id": "ht_dung_hinh",
+      "name": "HT dựng hình",
+      "desc": "Bộ công cụ dựng hình trong một thanh: tạo mặt, đẩy khối, ẩn/hiện, cắt đôi, xoay, rã DC, căn chỉnh, dim và thước Lỗ Ban, chia lam, độ dày, phục hồi tấm.",
+      "category": "Dựng hình",
+      "price": 0,
+      "loader": "HT_dung_hinh.rb",
+      "folder": "HT_dung_hinh",
+      "rbz_prefix": "HT_dung_hinh",
+      "min_su": 2020,
+      "changelog": "Thêm cổng giấy phép cho công cụ Rã DC (hiện miễn phí)."
     }
   ]
 }
