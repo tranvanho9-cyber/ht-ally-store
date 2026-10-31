@@ -6,5 +6,20 @@
     "license_api_url": "https://ht-license.tranvanho9.workers.dev",
     "support_zalo": "0908019530"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "id": "ht_vat_lieu",
+      "name": "HT vật liệu",
+      "desc": "Tìm và chọn nhanh vật liệu trong model, thư viện .skm có sẵn (MFC), tô màu tự xoay vân, xóa màu và hút màu.",
+      "category": "Vật liệu",
+      "price": 0,
+      "loader": "HT_vat_lieu.rb",
+      "folder": "HT_vat_lieu",
+      "min_su": 2020,
+      "changelog": "Thêm cổng giấy phép (hiện miễn phí). Tô màu nhanh hơn, giao diện đồng bộ, ghi log lỗi.",
+      "version": "3.9.0",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_vat_lieu_v3_9_0.rbz",
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_vat_lieu.png"
+    }
+  ]
 }
