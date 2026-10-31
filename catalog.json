@@ -34,6 +34,20 @@
       "version": "1.13.26",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dung_hinh_v1_13_26.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_dung_hinh.png"
+    },
+    {
+      "id": "ht_kiem_tra",
+      "name": "HT kiểm tra",
+      "desc": "Kiểm tra ván ABF: lỗi, vượt khổ, loại ván. Đồng bộ Nesting và Model theo ID, chọn tấm, xem thông tin, tìm ID.",
+      "category": "Kiểm tra",
+      "price": 0,
+      "loader": "HTKiemTra.rb",
+      "folder": "HTKiemTra",
+      "min_su": 2020,
+      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "version": "1.0.7",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HTKiemTra_v1_0_7.rbz",
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_kiem_tra.png"
     }
   ]
 }
