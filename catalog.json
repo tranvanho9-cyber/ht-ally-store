@@ -48,6 +48,20 @@
       "version": "1.0.7",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HTKiemTra_v1_0_7.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_kiem_tra.png"
+    },
+    {
+      "id": "ht_thong_ke",
+      "name": "HT thống kê",
+      "desc": "Bộ công cụ thống kê cho ván công nghiệp: đổi tên hàng loạt, in tem nhãn, thống kê và dự toán (xuất Excel), Acrylic (vát cạnh và thống kê cạnh).",
+      "category": "Thống kê",
+      "price": 0,
+      "loader": "HT_thong_ke.rb",
+      "folder": "HT_thong_ke",
+      "min_su": 2020,
+      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "version": "1.6.4",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_4.rbz",
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_thong_ke.png"
     }
   ]
 }
