@@ -46,6 +46,18 @@
       "rbz_prefix": "HTKiemTra",
       "min_su": 2020,
       "changelog": "Thêm cổng giấy phép (hiện miễn phí)."
+    },
+    {
+      "id": "ht_thong_ke",
+      "name": "HT thống kê",
+      "desc": "Bộ công cụ thống kê cho ván công nghiệp: đổi tên hàng loạt, in tem nhãn, thống kê và dự toán (xuất Excel), Acrylic (vát cạnh và thống kê cạnh).",
+      "category": "Thống kê",
+      "price": 0,
+      "loader": "HT_thong_ke.rb",
+      "folder": "HT_thong_ke",
+      "rbz_prefix": "HT_thong_ke",
+      "min_su": 2020,
+      "changelog": "Thêm cổng giấy phép (hiện miễn phí)."
     }
   ]
 }
