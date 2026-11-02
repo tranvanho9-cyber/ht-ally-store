@@ -15,6 +15,12 @@ h1{font-size:46px;line-height:1.1;margin:0 0 14px;font-weight:800}h1 em{font-sty
 .hero p{font-size:20px;color:#C9DAEE;margin:0 0 26px}
 .btn{display:inline-block;padding:14px 30px;border-radius:999px;background:var(--ac);color:#04172B;font-weight:800;text-decoration:none;font-size:18px}
 .btn.sec{background:transparent;border:2px solid var(--ac);color:#BFE0FF;margin-left:8px;padding:12px 26px}
+.btn{transition:background .18s,transform .18s,box-shadow .18s,color .18s;cursor:pointer}
+.btn:hover,.btn:focus-visible{background:#8CC8FF;transform:translateY(-2px);box-shadow:0 8px 24px rgba(74,157,235,.55);outline:none}
+.btn:active{transform:translateY(0);box-shadow:0 2px 8px rgba(74,157,235,.5)}
+.btn.sec:hover,.btn.sec:focus-visible{background:#4A9DEB;color:#04172B;border-color:#4A9DEB}
+.cta .btn.sec{margin-left:12px}.hero .btn.sec{margin-left:12px}
+.hero .w{padding-bottom:0}.hero .l{padding-bottom:40px}
 .note{margin-top:14px;color:#9CB6D2;font-size:15px}
 .shot{border-radius:14px 14px 0 0;border:2px solid #2A4361;border-bottom:0;width:100%;display:block;box-shadow:0 20px 60px rgba(0,0,0,.45);margin-top:30px}
 .hero .r{align-self:end}
