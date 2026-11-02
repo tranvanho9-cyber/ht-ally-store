@@ -1,47 +1,94 @@
 <!doctype html>
 <html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>HT Ally – Trung tâm plugin SketchUp</title>
-<meta name="description" content="Cài đặt, cập nhật và quản lý plugin SketchUp ngay trong SketchUp.">
+<meta name="description" content="Cài đặt, cập nhật và quản lý plugin SketchUp ngay trong SketchUp. Tự động sao lưu, lưu file bản thấp, cài lại plugin trên máy mới.">
+<meta property="og:title" content="HT Ally – Trung tâm plugin SketchUp"><meta property="og:image" content="https://tranvanho9-cyber.github.io/ht-ally-store/img/kho.jpg">
 <style>
-:root{--ac:#4A9DEB;--ac2:#1B5C9E;--bg:#EEF4FB;--pn:#fff;--tx:#12243B;--tx2:#43566E;--bd:#C5D6EA}
+:root{--ac:#4A9DEB;--ac2:#1B5C9E;--bg:#EEF4FB;--pn:#fff;--tx:#12243B;--tx2:#43566E;--bd:#C5D6EA;--hero:#0F1B2D}
 @media(prefers-color-scheme:dark){:root{--bg:#0E1A2A;--pn:#15263B;--tx:#EAF2FB;--tx2:#B5C6DA;--bd:#2A4361;--ac2:#8CC4F5}}
-*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.6 system-ui,"Segoe UI",Roboto,sans-serif}
-.w{max-width:960px;margin:0 auto;padding:0 20px}
-header{padding:56px 0 40px;text-align:center}
-.logo{width:72px;height:72px;border-radius:18px;background:var(--ac);color:#04172B;font:800 30px/72px inherit;margin:0 auto 18px}
-h1{font-size:40px;margin:0 0 8px}p.sub{font-size:20px;color:var(--tx2);margin:0 auto 28px;max-width:600px}
-.btn{display:inline-block;padding:14px 28px;border-radius:999px;background:var(--ac);color:#04172B;font-weight:800;text-decoration:none;font-size:18px;border:0;cursor:pointer}
-.btn.sec{background:transparent;border:2px solid var(--ac);color:var(--ac2);margin-left:8px}
-.note{margin-top:14px;color:var(--tx2);font-size:15px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:24px 0 40px}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:17px/1.65 system-ui,"Segoe UI",Roboto,sans-serif}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+.hero{background:var(--hero);color:#fff;padding:64px 0 0;overflow:hidden}
+.hero .w{display:grid;grid-template-columns:1fr 1.1fr;gap:36px;align-items:center}
+.logo{width:64px;height:64px;border-radius:16px;background:var(--ac);color:#04172B;font:800 27px/64px system-ui;text-align:center;margin-bottom:16px}
+h1{font-size:46px;line-height:1.1;margin:0 0 14px;font-weight:800}h1 em{font-style:normal;color:var(--ac)}
+.hero p{font-size:20px;color:#C9DAEE;margin:0 0 26px}
+.btn{display:inline-block;padding:14px 30px;border-radius:999px;background:var(--ac);color:#04172B;font-weight:800;text-decoration:none;font-size:18px}
+.btn.sec{background:transparent;border:2px solid var(--ac);color:#BFE0FF;margin-left:8px;padding:12px 26px}
+.note{margin-top:14px;color:#9CB6D2;font-size:15px}
+.shot{border-radius:14px 14px 0 0;border:2px solid #2A4361;border-bottom:0;width:100%;display:block;box-shadow:0 20px 60px rgba(0,0,0,.45);margin-top:30px}
+.hero .r{align-self:end}
+section{padding:54px 0 0}
+h2{font-size:32px;margin:0 0 8px;text-align:center}.lead{text-align:center;color:var(--tx2);max-width:640px;margin:0 auto 30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
 .card{background:var(--pn);border:1px solid var(--bd);border-radius:16px;padding:22px}
-.card h3{margin:0 0 6px;font-size:19px}.card p{margin:0;color:var(--tx2);font-size:16px}
-h2{font-size:28px;margin:40px 0 12px}ol{padding-left:22px}li{margin:8px 0}
-footer{text-align:center;color:var(--tx2);font-size:15px;padding:30px 0 50px}a{color:var(--ac2)}
-@media(max-width:520px){h1{font-size:32px}.btn.sec{margin:12px 0 0}}
+.card h3{margin:8px 0 6px;font-size:19px}.card p{margin:0;color:var(--tx2);font-size:16px}
+.ico{font-size:30px}.tag{display:inline-block;font-size:13px;font-weight:700;background:#4A9DEB;color:#04172B;border-radius:20px;padding:2px 10px;margin-left:6px;vertical-align:middle}
+.pl{display:flex;gap:16px;align-items:flex-start}.pl img{width:56px;height:56px;border-radius:12px;flex:none}
+.pl h3{margin:0 0 4px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center;margin-bottom:46px}
+.row.rev .t{order:2}.row img{width:100%;border-radius:14px;border:1px solid var(--bd);box-shadow:0 10px 36px rgba(10,30,60,.18)}
+.row h3{font-size:26px;margin:0 0 10px}.row ul{padding-left:20px;color:var(--tx2)}.row li{margin:6px 0}
+.steps{counter-reset:s;list-style:none;padding:0;max-width:720px;margin:0 auto}
+.steps li{counter-increment:s;background:var(--pn);border:1px solid var(--bd);border-radius:14px;padding:16px 18px 16px 62px;margin:12px 0;position:relative}
+.steps li:before{content:counter(s);position:absolute;left:16px;top:12px;width:34px;height:34px;border-radius:50%;background:var(--ac);color:#04172B;font-weight:800;text-align:center;line-height:34px}
+.cta{background:var(--hero);color:#fff;text-align:center;padding:44px 20px;border-radius:22px;margin-top:54px}
+.cta h2{margin-bottom:16px}
+details{background:var(--pn);border:1px solid var(--bd);border-radius:12px;padding:14px 18px;margin:10px auto;max-width:720px}summary{font-weight:700;cursor:pointer}details p{margin:10px 0 0;color:var(--tx2)}
+footer{text-align:center;color:var(--tx2);font-size:15px;padding:36px 0 50px}a{color:var(--ac2)}
+@media(max-width:820px){.hero .w,.row{grid-template-columns:1fr}.row.rev .t{order:0}h1{font-size:36px}.btn.sec{margin:12px 0 0}}
 </style></head><body>
-<header class="w"><div class="logo">HT</div><h1>HT Ally</h1>
-<p class="sub">Trung tâm plugin SketchUp: cài đặt, cập nhật và quản lý plugin ngay trong SketchUp.</p>
+<div class="hero"><div class="w">
+<div><div class="logo">HT</div><h1>Quản lý plugin SketchUp<br><em>ngay trong SketchUp</em></h1>
+<p>Cài đặt, cập nhật, sao lưu và cài lại plugin chỉ với vài cú bấm. Miễn phí, tiếng Việt, do Hồ Trần phát triển.</p>
 <a class="btn" id="dl" href="https://github.com/tranvanho9-cyber/ht-ally-store/tree/main/rbz">Tải HT Ally</a><a class="btn sec" href="https://zalo.me/0908019530">Hỗ trợ qua Zalo</a>
-<div class="note" id="ver">SketchUp 2020 trở lên · Windows</div></header>
+<div class="note" id="ver">SketchUp 2020 trở lên · Windows</div></div>
+<div class="r"><img class="shot" src="img/kho.jpg" alt="Kho plugin HT Ally"></div>
+</div></div>
 <main class="w">
+<section><h2>Mọi thứ bạn cần, trong một cửa sổ</h2><p class="lead">Không cần tải file rời rạc hay tìm trong Extension Manager.</p>
 <div class="grid">
-<div class="card"><h3>Kho plugin</h3><p>Xem, cài đặt và gỡ plugin chỉ bằng một cú bấm.</p></div>
-<div class="card"><h3>Cập nhật tự động</h3><p>Có bản mới là báo ngay, cập nhật một hoặc tất cả.</p></div>
-<div class="card"><h3>Dùng thử và mua</h3><p>Thanh toán bằng mã QR, mở khóa tự động sau khi chuyển khoản.</p></div>
-<div class="card"><h3>Thanh công cụ riêng</h3><p>Gom icon của mọi plugin vào một thanh gọn gàng.</p></div>
-</div>
-<h2>Cách cài đặt</h2>
-<ol><li>Bấm <b>Tải HT Ally</b> và lưu file <code>.rbz</code>.</li>
+<div class="card"><div class="ico">⬇️</div><h3>Cài một cú bấm</h3><p>Xem, cài đặt và gỡ plugin ngay trong SketchUp.</p></div>
+<div class="card"><div class="ico">🔔</div><h3>Cập nhật tự động</h3><p>Có bản mới là báo ngay, cập nhật một hoặc tất cả, có thể quay lại bản cũ.</p></div>
+<div class="card"><div class="ico">🧰</div><h3>Thanh công cụ gọn</h3><p>Gom icon của nhiều plugin thành các nhóm theo ý bạn.</p></div>
+<div class="card"><div class="ico">🔑</div><h3>Đăng nhập Google</h3><p>Chỉ một lần. Dùng cho dùng thử, mua plugin có phí và đồng bộ danh sách.</p></div>
+</div></section>
+
+<section><h2>Kho plugin HT</h2><p class="lead">Bộ công cụ cho ngành nội thất và ván công nghiệp. Hiện đang miễn phí.</p>
+<div class="grid">
+<div class="card pl"><img src="img/ht_dung_hinh.png" alt=""><div><h3>HT dựng hình</h3><p>Tạo mặt, đẩy khối, ẩn/hiện, xoay, rã DC, căn chỉnh, dim và thước Lỗ Ban, chia lam, độ dày.</p></div></div>
+<div class="card pl"><img src="img/ht_vat_lieu.png" alt=""><div><h3>HT vật liệu</h3><p>Tìm và chọn nhanh vật liệu, thư viện .skm có sẵn, tô màu tự xoay vân, hút màu.</p></div></div>
+<div class="card pl"><img src="img/ht_thong_ke.png" alt=""><div><h3>HT thống kê</h3><p>Đổi tên hàng loạt, in tem nhãn, thống kê và dự toán xuất Excel, Acrylic.</p></div></div>
+<div class="card pl"><img src="img/ht_kiem_tra.png" alt=""><div><h3>HT kiểm tra</h3><p>Kiểm tra ván ABF: lỗi, vượt khổ, loại ván. Đồng bộ Nesting và Model theo ID.</p></div></div>
+</div></section>
+
+<section><h2>Tab Tiện ích mới <span class="tag">1.11.0</span></h2><p class="lead">Những thứ dân SketchUp nào cũng cần, tích hợp sẵn.</p>
+<div class="row"><div class="t"><h3>💾 Tự động sao lưu model</h3><ul><li>Lưu bản dự phòng theo chu kỳ 5–30 phút, chỉ khi model có thay đổi.</li><li>Ưu tiên lúc bạn dừng tay, không làm giật khi đang vẽ.</li><li>SketchUp văng hoặc treo: lần mở sau HT Ally hỏi bạn có mở bản sao lưu gần nhất không.</li></ul></div><img src="img/tien-ich-toi.jpg" alt="Tiện ích giao diện tối" loading="lazy"></div>
+<div class="row rev"><div class="t"><h3>📉 Lưu file ở phiên bản thấp</h3><ul><li>Hạ file xuống SketchUp 2020 để gửi cho khách hoặc đồng nghiệp dùng bản cũ.</li><li>File đang mở giữ nguyên, không lo ghi đè.</li></ul>
+<h3 style="margin-top:26px">🔄 Cài lại plugin trên máy mới</h3><ul><li>Đăng nhập Google, bấm một nút để cài lại các plugin còn thiếu.</li><li>Chỉ lưu mã plugin và số phiên bản, không lưu file hay model. Tắt được bất cứ lúc nào.</li></ul>
+<h3 style="margin-top:26px">🌙 Giao diện sáng / tối</h3><ul><li>Dịu mắt khi làm việc ban đêm.</li></ul></div><img src="img/tien-ich-sang.jpg" alt="Tiện ích giao diện sáng" loading="lazy"></div>
+</section>
+
+<section><h2>Cài đặt trong 3 bước</h2>
+<ol class="steps"><li>Bấm <b>Tải HT Ally</b> và lưu file <code>.rbz</code>.</li>
 <li>Trong SketchUp: <b>Window ▸ Extension Manager ▸ Install Extension</b>, chọn file vừa tải.</li>
-<li>Khởi động lại SketchUp nếu được yêu cầu, rồi mở <b>HT Ally</b> từ thanh công cụ.</li></ol>
-<p class="note">Nếu SketchUp hỏi về extension chưa ký (unidentified extension), chọn <b>Yes</b> để cho phép tải.</p>
+<li>Khởi động lại SketchUp, rồi mở <b>HT Ally</b> từ thanh công cụ (nếu chưa thấy, bật trong <b>View ▸ Toolbars</b>).</li></ol>
+<p style="text-align:center;color:var(--tx2);font-size:15px">Nếu SketchUp hỏi về extension chưa ký (unidentified extension), chọn <b>Yes</b> để cho phép tải.</p></section>
+
+<section><h2>Câu hỏi thường gặp</h2>
+<details><summary>HT Ally có miễn phí không?</summary><p>HT Ally miễn phí. Các plugin HT hiện cũng đang miễn phí. Plugin có phí sau này sẽ có dùng thử trước khi mua.</p></details>
+<details><summary>Dùng được trên SketchUp nào?</summary><p>SketchUp 2020 trở lên, trên Windows.</p></details>
+<details><summary>HT Ally lưu thông tin gì của tôi?</summary><p>Chỉ tên, email Google để quản lý bản quyền, và (nếu bạn bật) danh sách mã plugin đã cài. Xem chi tiết ở <a href="privacy.html">chính sách riêng tư</a>.</p></details>
+<details><summary>Tự động sao lưu không chạy?</summary><p>SketchUp chỉ cho sao lưu model đã được lưu ít nhất một lần. Hãy lưu model (Ctrl+S) rồi thử lại.</p></details>
+</section>
+
+<div class="cta"><h2>Thử HT Ally ngay hôm nay</h2><a class="btn" id="dl2" href="https://github.com/tranvanho9-cyber/ht-ally-store/tree/main/rbz">Tải HT Ally</a><a class="btn sec" href="https://zalo.me/0908019530">Nhắn Zalo 0908019530</a></div>
 </main>
-<footer>© Hồ Trần · Hỗ trợ Zalo <a href="https://zalo.me/0908019530">0908019530</a></footer>
+<footer>© Hồ Trần · Hỗ trợ Zalo <a href="https://zalo.me/0908019530">0908019530</a> · <a href="privacy.html">Chính sách riêng tư</a></footer>
 <script>
 fetch('https://api.github.com/repos/tranvanho9-cyber/ht-ally-store/contents/rbz').then(function(r){return r.json()}).then(function(a){
  var best=null,bv=[];a.forEach(function(f){var m=/^HT_Ally_v(\d+(?:_\d+)*)\.rbz$/.exec(f.name);if(!m)return;var v=m[1].split('_').map(Number);
   for(var i=0;i<Math.max(v.length,bv.length);i++){var x=v[i]||0,y=bv[i]||0;if(x!==y){if(x>y){best=f;bv=v}break}}if(!best){best=f;bv=v}});
- if(best){document.getElementById('dl').href=best.download_url;document.getElementById('ver').textContent='Phiên bản '+bv.join('.')+' · SketchUp 2020 trở lên · Windows'}
+ if(best){document.getElementById('dl').href=best.download_url;document.getElementById('dl2').href=best.download_url;document.getElementById('ver').textContent='Phiên bản '+bv.join('.')+' · SketchUp 2020 trở lên · Windows'}
 }).catch(function(){});
 </script></body></html>
