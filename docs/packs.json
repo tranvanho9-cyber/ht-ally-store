@@ -1,0 +1,184 @@
+{
+ "packs": [
+  {
+   "id": "02_LAMINATE_KINGDOM_phan_1",
+   "name": "02. LAMINATE KINGDOM (phần 1)",
+   "count": 525,
+   "size": 1815817353,
+   "sha256": "ddaa16280b415598300eda0c5190f35acbeb0e8eee803efaac195cae8ddfd132",
+   "desc": "Thư viện lớn, chia 3 phần: nên tải đủ cả 3",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/02_LAMINATE_KINGDOM_phan_1.htlib"
+  },
+  {
+   "id": "02_LAMINATE_KINGDOM_phan_2",
+   "name": "02. LAMINATE KINGDOM (phần 2)",
+   "count": 355,
+   "size": 1807305977,
+   "sha256": "3b7536392876a904ecf7baaa69473fd2e05fee89922f655ba7fc95a6405f0e3f",
+   "desc": "Thư viện lớn, chia 3 phần: nên tải đủ cả 3",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/02_LAMINATE_KINGDOM_phan_2.htlib"
+  },
+  {
+   "id": "02_LAMINATE_KINGDOM_phan_3",
+   "name": "02. LAMINATE KINGDOM (phần 3)",
+   "count": 11,
+   "size": 88073817,
+   "sha256": "43ab07e0f3b144a0e8ff73ad009955b4b2189b61ec310797596403bbd567009b",
+   "desc": "Thư viện lớn, chia 3 phần: nên tải đủ cả 3",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/02_LAMINATE_KINGDOM_phan_3.htlib"
+  },
+  {
+   "id": "04_FORMICA",
+   "name": "04. FORMICA",
+   "count": 458,
+   "size": 1213685801,
+   "sha256": "1032278121d4b307d1ed75f2134aef2d331c4fbecc200305d5b8e5dbc238c073",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/04_FORMICA.htlib"
+  },
+  {
+   "id": "05_LAMINATE_IMO",
+   "name": "05. LAMINATE IMO",
+   "count": 47,
+   "size": 66720713,
+   "sha256": "014368d3cdc1254242db0a347b2c469cb4285999f58695ff91a860580ef2e0be",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/05_LAMINATE_IMO.htlib"
+  },
+  {
+   "id": "06_HIGH_QUALITY_ACRYLIC",
+   "name": "06. HIGH QUALITY - ACRYLIC",
+   "count": 119,
+   "size": 289922361,
+   "sha256": "379747cadcde7e523957ebe1f7b26fc82b4c69ee3f385f3c00f8ab17161955b7",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/06_HIGH_QUALITY_ACRYLIC.htlib"
+  },
+  {
+   "id": "07_PREMIUM_SKY_LUX_ACRYLIC",
+   "name": "07. PREMIUM - SKY LUX ACRYLIC",
+   "count": 27,
+   "size": 764681,
+   "sha256": "652607d0232e79ab64b7b08ab69bc2990d443e290bc570a2269df5aa1d9509a0",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/07_PREMIUM_SKY_LUX_ACRYLIC.htlib"
+  },
+  {
+   "id": "08_STANDARD_ACRYLIC_BASIC",
+   "name": "08. STANDARD - ACRYLIC BASIC",
+   "count": 19,
+   "size": 223737,
+   "sha256": "23658ee1034bf00dbd4f916ae1ddf5ad1e51944ca5c418df45e39ded94fd735c",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/08_STANDARD_ACRYLIC_BASIC.htlib"
+  },
+  {
+   "id": "09_WALL_CEILING_PANEL",
+   "name": "09. WALL & CEILING PANEL",
+   "count": 45,
+   "size": 270090857,
+   "sha256": "98935c04fedd7af0deacd8ab92c397bcd20894efd9646ddee480829e5634240f",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/09_WALL_CEILING_PANEL.htlib"
+  },
+  {
+   "id": "10_ACOUSTIC_PANEL",
+   "name": "10. ACOUSTIC PANEL",
+   "count": 50,
+   "size": 370848937,
+   "sha256": "c61fe0e90f432d5e82115a3be5bf2b132642dc02d1846d7ac4f782227395f8a3",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/10_ACOUSTIC_PANEL.htlib"
+  },
+  {
+   "id": "11_LAMBRI_PANEL",
+   "name": "11. LAMBRI PANEL",
+   "count": 28,
+   "size": 199638601,
+   "sha256": "8f59b686c4643be69ac57f1c43655d83e86793ed2d56c1fc43dcf36132c4fe29",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/11_LAMBRI_PANEL.htlib"
+  },
+  {
+   "id": "12_SAN",
+   "name": "12. SÀN",
+   "count": 124,
+   "size": 1142496889,
+   "sha256": "663c326f9fcb167c11669bdce887e661b6d4c760141ff4408d5adebf4401b36d",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/12_SAN.htlib"
+  },
+  {
+   "id": "14_VENEER",
+   "name": "14. VENEER",
+   "count": 116,
+   "size": 723313145,
+   "sha256": "a168199fb25bf18910e2fa1bb7b7aee5d84a135d95c2b8df65a22bcbb30192bb",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/14_VENEER.htlib"
+  },
+  {
+   "id": "16_OUTDOOR_DECORATIVE_PANEL",
+   "name": "16.OUTDOOR DECORATIVE PANEL",
+   "count": 8,
+   "size": 6889833,
+   "sha256": "957b31659285b15f40287af5654acbff4fbfdcfe08d4cc51766d7b5ef87e7a9a",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/16_OUTDOOR_DECORATIVE_PANEL.htlib"
+  },
+  {
+   "id": "21_2D_PANEL",
+   "name": "21. 2D PANEL",
+   "count": 74,
+   "size": 360046105,
+   "sha256": "111af0f73822bdb85068456191e9673eb3638cbdc275b3349dd80ac6fd9d7c63",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/21_2D_PANEL.htlib"
+  },
+  {
+   "id": "22_3D_PANEL",
+   "name": "22. 3D PANEL",
+   "count": 47,
+   "size": 421755001,
+   "sha256": "7091b30c2d4136040b0454f6883744bf4b48f5a16d9ca0649a57b2d2df7b3b01",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/22_3D_PANEL.htlib"
+  },
+  {
+   "id": "23_OP",
+   "name": "23. OP",
+   "count": 8,
+   "size": 121014265,
+   "sha256": "612441046e2d381d53f473658cb258cddc4253a3108f9d84e434cbcd7fff5d8a",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/23_OP.htlib"
+  },
+  {
+   "id": "25_COMPACT",
+   "name": "25. COMPACT",
+   "count": 7,
+   "size": 33229417,
+   "sha256": "64701fbafd8b4bfe6557ee46c04b781930fb6ab73bb05888df3513c1ea69391b",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/25_COMPACT.htlib"
+  },
+  {
+   "id": "KES_S6",
+   "name": "KES S6",
+   "count": 238,
+   "size": 750793849,
+   "sha256": "47ffe1405f56aa4f9807d986ca64e8038664c4a1bcf071c576a4aaa5857e61b6",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/KES_S6.htlib"
+  },
+  {
+   "id": "KES_S9",
+   "name": "KES S9",
+   "count": 243,
+   "size": 725782169,
+   "sha256": "840d16bc336c80d36621bf2790e5ea4690205dbe0995cc84e132fa074c256baa",
+   "desc": "",
+   "url": "https://github.com/tranvanho9-cyber/ht-ally-store/releases/download/vat-lieu/KES_S9.htlib"
+  }
+ ]
+}
