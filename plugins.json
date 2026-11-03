@@ -14,14 +14,14 @@
     {
       "id": "ht_vat_lieu",
       "name": "HT vật liệu",
-      "desc": "Tìm và chọn nhanh vật liệu trong model, thư viện .skm có sẵn (MFC), tô màu tự xoay vân, xóa màu và hút màu.",
+      "desc": "Tìm và chọn nhanh vật liệu trong model, thư viện .skm (MFC có sẵn, tải thêm hàng nghìn vật liệu ngay trong plugin), lọc theo màu, thay/dọn/đổi tên vật liệu hàng loạt, tô màu tự xoay vân.",
       "category": "Vật liệu",
       "price": 0,
       "loader": "HT_vat_lieu.rb",
       "folder": "HT_vat_lieu",
       "rbz_prefix": "HT_vat_lieu",
       "min_su": 2020,
-      "changelog": "Thêm cổng giấy phép (hiện miễn phí). Tô màu nhanh hơn, giao diện đồng bộ, ghi log lỗi."
+      "changelog": "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách."
     },
     {
       "id": "ht_dung_hinh",
