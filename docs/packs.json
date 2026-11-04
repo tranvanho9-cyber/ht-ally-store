@@ -1,6 +1,15 @@
 {
  "packs": [
   {
+   "id": "MFC",
+   "name": "MFC",
+   "count": 443,
+   "size": 30642377,
+   "sha256": "b6e87e1eb961fa28e558c118960bd222cbbf6a4359e9e1c64d484e7a60281beb",
+   "desc": "Thư viện mặc định, tự tải ở lần mở đầu tiên",
+   "url": "https://tranvanho9-cyber.github.io/ht-ally-store/packs/MFC.htlib"
+  },
+  {
    "id": "02_LAMINATE_KINGDOM_phan_1",
    "name": "02. LAMINATE KINGDOM (phần 1)",
    "count": 525,
