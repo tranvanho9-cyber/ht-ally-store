@@ -6,8 +6,8 @@
     "license_api_url": "https://ht-license.tranvanho9.workers.dev",
     "support_zalo": "0908019530",
     "hub": {
-      "version": "1.11.0",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_Ally_v1_11_0.rbz",
+      "version": "1.11.5",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_Ally_v1_11_5.rbz",
       "notes": ""
     }
   },
