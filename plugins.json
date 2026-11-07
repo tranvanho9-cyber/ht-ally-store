@@ -58,6 +58,18 @@
       "rbz_prefix": "HT_thong_ke",
       "min_su": 2020,
       "changelog": "Thêm cổng giấy phép (hiện miễn phí)."
+    },
+    {
+      "id": "ht_layout",
+      "name": "HT layout",
+      "desc": "Dựng layout A4 (bản vẽ 2D) từ model: các mặt nhìn, mặt cắt, dim chi tiết + dim tổng, lỗ khoan / bản lề, khung tên, xuất PDF.",
+      "category": "Bản vẽ",
+      "price": 0,
+      "loader": "HT_layout.rb",
+      "folder": "HT_layout",
+      "rbz_prefix": "HT_layout",
+      "min_su": 2020,
+      "changelog": "Bản đầu tiên trên HT Ally."
     }
   ]
 }
