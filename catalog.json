@@ -67,6 +67,20 @@
       "version": "1.6.4",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_4.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_thong_ke.png"
+    },
+    {
+      "id": "ht_layout",
+      "name": "HT layout",
+      "desc": "Dựng layout A4 (bản vẽ 2D) từ model: các mặt nhìn, mặt cắt, dim chi tiết + dim tổng, lỗ khoan / bản lề, khung tên, xuất PDF.",
+      "category": "Bản vẽ",
+      "price": 0,
+      "loader": "HT_layout.rb",
+      "folder": "HT_layout",
+      "min_su": 2020,
+      "changelog": "Bản đầu tiên trên HT Ally.",
+      "version": "2.17.0",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_layout_v2_17_0.rbz",
+      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_layout.png"
     }
   ]
 }
