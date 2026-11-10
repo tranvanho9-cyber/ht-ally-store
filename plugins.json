@@ -69,7 +69,7 @@
       "folder": "HT_layout",
       "rbz_prefix": "HT_layout",
       "min_su": 2020,
-      "changelog": "Thêm bảng Phụ kiện và nhiều cải tiến cho layout."
+      "changelog": "Thêm lệnh HT hình ảnh: kéo khung chụp vùng trên màn hình SketchUp, đưa ảnh vào bản vẽ HT layout để xuất PDF."
     }
   ]
 }
