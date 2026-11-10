@@ -6,7 +6,7 @@ Với mỗi plugin lấy bản có số phiên bản CAO NHẤT -> version + rbz
 Chạy tự động bằng GitHub Actions mỗi khi bạn đưa file .rbz mới lên (xem .github/workflows).
 Chạy tay:  python tools/build_catalog.py --base https://raw.githubusercontent.com/USER/REPO/main
 """
-import argparse, json, os, re, sys, urllib.parse, zipfile
+import argparse, json, os, re, shutil, sys, urllib.parse, zipfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -74,6 +74,9 @@ def main():
         b = latest(hub['rbz_prefix'], files)
         if b:
             meta['hub'] = {'version': '.'.join(map(str, b[0])), 'rbz_url': url(b[1]), 'notes': hub.get('notes', '')}
+            # Link tải cố định (không kèm số phiên bản) luôn trỏ tới bản HT Ally mới nhất
+            os.makedirs(os.path.join(ROOT, 'docs', 'download'), exist_ok=True)
+            shutil.copyfile(os.path.join(ROOT, 'rbz', b[1]), os.path.join(ROOT, 'docs', 'download', 'HT_Ally.rbz'))
 
     plugins = list(src['plugins'])
     known = {p['rbz_prefix'].lower() for p in plugins}

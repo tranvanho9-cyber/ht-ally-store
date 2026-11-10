@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python3 tools/build_catalog.py
-      - name: Commit catalog.json
+      - name: Commit catalog và link tải cố định
         run: |
           git config user.name "catalog-bot"
           git config user.email "catalog-bot@users.noreply.github.com"
-          git add catalog.json
+          git add catalog.json docs/download/HT_Ally.rbz
           git diff --cached --quiet || (git commit -m "Cập nhật catalog" && git push)
