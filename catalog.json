@@ -81,6 +81,19 @@
       "version": "2.45.8",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_layout_v2_45_8.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_layout.png"
+    },
+    {
+      "id": "ht_dxf",
+      "name": "HT dxf",
+      "desc": "Bộ công cụ gia công CNC trong một thanh: nesting xếp ván lên tấm, xuất DXF, gắn label, chống bay.",
+      "category": "Gia công",
+      "price": 0,
+      "loader": "HT_dxf.rb",
+      "folder": "HT_dxf",
+      "min_su": 2020,
+      "changelog": "Bản đầu trên HT Ally: Nesting, Xuất DXF, Gắn label, Chống Bay.",
+      "version": "1.1.151",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dxf_v1_1_151.rbz"
     }
   ]
 }
