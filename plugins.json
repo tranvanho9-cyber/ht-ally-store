@@ -70,6 +70,18 @@
       "rbz_prefix": "HT_layout",
       "min_su": 2020,
       "changelog": "Cập nhật HT layout v2.45.8: cải tiến và sửa lỗi."
+    },
+    {
+      "id": "ht_dxf",
+      "name": "HT dxf",
+      "desc": "Bộ công cụ gia công CNC trong một thanh: nesting xếp ván lên tấm, xuất DXF, gắn label, chống bay.",
+      "category": "Gia công",
+      "price": 0,
+      "loader": "HT_dxf.rb",
+      "folder": "HT_dxf",
+      "rbz_prefix": "HT_dxf",
+      "min_su": 2020,
+      "changelog": "Bản đầu trên HT Ally: Nesting, Xuất DXF, Gắn label, Chống Bay."
     }
   ]
 }
