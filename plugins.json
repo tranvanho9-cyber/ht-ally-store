@@ -74,14 +74,14 @@
     {
       "id": "ht_dxf",
       "name": "HT dxf",
-      "desc": "Bộ công cụ gia công CNC trong một thanh: nesting xếp ván lên tấm, xuất DXF, gắn label, chống bay.",
+      "desc": "Bộ công cụ gia công CNC trong một thanh: nesting xếp ván lên tấm, xếp tấm thủ công, xuất DXF, gắn label, chống bay.",
       "category": "Gia công",
       "price": 0,
       "loader": "HT_dxf.rb",
       "folder": "HT_dxf",
       "rbz_prefix": "HT_dxf",
       "min_su": 2020,
-      "changelog": "Bản đầu trên HT Ally: Nesting, Xuất DXF, Gắn label, Chống Bay."
+      "changelog": "Thêm Xếp tấm (chạy không cần thư viện ngoài, dùng được trên Mac) và cải tiến Nesting, Xuất DXF, Gắn label, Chống Bay."
     }
   ]
 }
