@@ -21,7 +21,8 @@
       "folder": "HT_vat_lieu",
       "rbz_prefix": "HT_vat_lieu",
       "min_su": 2020,
-      "changelog": "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách."
+      "changelog": "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách.",
+      "desc_en": "Quickly find and pick materials in the model, .skm libraries (MFC included, download thousands more inside the plugin), filter by color, replace/clean/rename materials in bulk, color boards automatically by grain."
     },
     {
       "id": "ht_dung_hinh",
@@ -33,7 +34,8 @@
       "folder": "HT_dung_hinh",
       "rbz_prefix": "HT_dung_hinh",
       "min_su": 2020,
-      "changelog": "Thêm công cụ HT chùm điểm."
+      "changelog": "Thêm công cụ HT chùm điểm.",
+      "desc_en": "A modeling toolset in one bar: make faces, push blocks, hide/show, split in two, rotate, explode DC, align, dimensions and Lo Ban ruler, slat division, thickness, panel recovery, point cluster."
     },
     {
       "id": "ht_kiem_tra",
@@ -45,7 +47,8 @@
       "folder": "HTKiemTra",
       "rbz_prefix": "HTKiemTra",
       "min_su": 2020,
-      "changelog": "Thêm cổng giấy phép (hiện miễn phí)."
+      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "desc_en": "Check ABF boards: errors, oversize, board type. Sync Nesting and Model by ID, select panels, view info, find ID."
     },
     {
       "id": "ht_thong_ke",
@@ -57,7 +60,8 @@
       "folder": "HT_thong_ke",
       "rbz_prefix": "HT_thong_ke",
       "min_su": 2020,
-      "changelog": "Thêm cổng giấy phép (hiện miễn phí)."
+      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics)."
     },
     {
       "id": "ht_layout",
@@ -69,7 +73,8 @@
       "folder": "HT_layout",
       "rbz_prefix": "HT_layout",
       "min_su": 2020,
-      "changelog": "Cập nhật HT layout v2.45.8: cải tiến và sửa lỗi."
+      "changelog": "Cập nhật HT layout v2.45.8: cải tiến và sửa lỗi.",
+      "desc_en": "Build A4 layouts (2D drawings) from the model: elevations, sections, detail + overall dimensions, drill / hinge holes, title block, PDF export."
     },
     {
       "id": "ht_dxf",
@@ -81,7 +86,8 @@
       "folder": "HT_dxf",
       "rbz_prefix": "HT_dxf",
       "min_su": 2020,
-      "changelog": "Thêm Xếp tấm (chạy không cần thư viện ngoài, dùng được trên Mac) và cải tiến Nesting, Xuất DXF, Gắn label, Chống Bay."
+      "changelog": "Thêm Xếp tấm (chạy không cần thư viện ngoài, dùng được trên Mac) và cải tiến Nesting, Xuất DXF, Gắn label, Chống Bay.",
+      "desc_en": "A CNC fabrication toolset in one bar: nesting boards onto sheets, manual sheet layout, DXF export, labeling, anti-float."
     }
   ]
 }
