@@ -22,6 +22,7 @@
       "folder": "HT_vat_lieu",
       "min_su": 2020,
       "changelog": "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách.",
+      "desc_en": "Quickly find and pick materials in the model, .skm libraries (MFC included, download thousands more inside the plugin), filter by color, replace/clean/rename materials in bulk, color boards automatically by grain.",
       "version": "3.14.8",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_vat_lieu_v3_14_8.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_vat_lieu.png"
@@ -36,6 +37,7 @@
       "folder": "HT_dung_hinh",
       "min_su": 2020,
       "changelog": "Thêm công cụ HT chùm điểm.",
+      "desc_en": "A modeling toolset in one bar: make faces, push blocks, hide/show, split in two, rotate, explode DC, align, dimensions and Lo Ban ruler, slat division, thickness, panel recovery, point cluster.",
       "version": "1.14.0",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dung_hinh_v1_14_0.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_dung_hinh.png"
@@ -50,6 +52,7 @@
       "folder": "HTKiemTra",
       "min_su": 2020,
       "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "desc_en": "Check ABF boards: errors, oversize, board type. Sync Nesting and Model by ID, select panels, view info, find ID.",
       "version": "1.0.7",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HTKiemTra_v1_0_7.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_kiem_tra.png"
@@ -64,6 +67,7 @@
       "folder": "HT_thong_ke",
       "min_su": 2020,
       "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics).",
       "version": "1.6.4",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_4.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_thong_ke.png"
@@ -78,6 +82,7 @@
       "folder": "HT_layout",
       "min_su": 2020,
       "changelog": "Cập nhật HT layout v2.45.8: cải tiến và sửa lỗi.",
+      "desc_en": "Build A4 layouts (2D drawings) from the model: elevations, sections, detail + overall dimensions, drill / hinge holes, title block, PDF export.",
       "version": "2.45.8",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_layout_v2_45_8.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_layout.png"
@@ -92,6 +97,7 @@
       "folder": "HT_dxf",
       "min_su": 2020,
       "changelog": "Thêm Xếp tấm (chạy không cần thư viện ngoài, dùng được trên Mac) và cải tiến Nesting, Xuất DXF, Gắn label, Chống Bay.",
+      "desc_en": "A CNC fabrication toolset in one bar: nesting boards onto sheets, manual sheet layout, DXF export, labeling, anti-float.",
       "version": "1.1.157",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dxf_v1_1_157.rbz"
     }
