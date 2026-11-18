@@ -51,7 +51,7 @@
       "loader": "HTKiemTra.rb",
       "folder": "HTKiemTra",
       "min_su": 2020,
-      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
       "desc_en": "Check ABF boards: errors, oversize, board type. Sync Nesting and Model by ID, select panels, view info, find ID.",
       "version": "1.0.7",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HTKiemTra_v1_0_7.rbz",
@@ -66,10 +66,10 @@
       "loader": "HT_thong_ke.rb",
       "folder": "HT_thong_ke",
       "min_su": 2020,
-      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
       "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics).",
-      "version": "1.6.4",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_4.rbz",
+      "version": "1.6.5",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_5.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_thong_ke.png"
     },
     {
