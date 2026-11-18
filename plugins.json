@@ -47,7 +47,7 @@
       "folder": "HTKiemTra",
       "rbz_prefix": "HTKiemTra",
       "min_su": 2020,
-      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
+      "changelog": "Cập nhật HT kiểm tra v1.0.9: đưa hàng nút trên màn hình lên sát mép trên.",
       "desc_en": "Check ABF boards: errors, oversize, board type. Sync Nesting and Model by ID, select panels, view info, find ID."
     },
     {
