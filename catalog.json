@@ -6,9 +6,9 @@
     "license_api_url": "https://ht-license.tranvanho9.workers.dev",
     "support_zalo": "0908019530",
     "hub": {
-      "version": "1.11.10",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_Ally_v1_11_10.rbz",
-      "notes": "Thêm nút đổi ngôn ngữ Việt/Anh, hiện đủ icon công cụ của HT dxf."
+      "version": "1.11.13",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_Ally_v1_11_13.rbz",
+      "notes": "Khi SketchUp thoát đột ngột, báo plugin/lệnh nghi gây ra. Sao lưu tự động: chọn 2/5/10/15 phút (mặc định 2), giữ 2/5/8/10 bản (mặc định 5)."
     }
   },
   "plugins": [
