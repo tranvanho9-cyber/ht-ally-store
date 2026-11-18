@@ -47,7 +47,7 @@
       "folder": "HTKiemTra",
       "rbz_prefix": "HTKiemTra",
       "min_su": 2020,
-      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
       "desc_en": "Check ABF boards: errors, oversize, board type. Sync Nesting and Model by ID, select panels, view info, find ID."
     },
     {
@@ -60,7 +60,7 @@
       "folder": "HT_thong_ke",
       "rbz_prefix": "HT_thong_ke",
       "min_su": 2020,
-      "changelog": "Thêm cổng giấy phép (hiện miễn phí).",
+      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
       "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics)."
     },
     {
