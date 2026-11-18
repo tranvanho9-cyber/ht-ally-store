@@ -8,7 +8,7 @@
   },
   "hub": {
     "rbz_prefix": "HT_Ally",
-    "notes": "Thêm nút đổi ngôn ngữ Việt/Anh, hiện đủ icon công cụ của HT dxf."
+    "notes": "Khi SketchUp thoát đột ngột, báo plugin/lệnh nghi gây ra. Sao lưu tự động: chọn 2/5/10/15 phút (mặc định 2), giữ 2/5/8/10 bản (mặc định 5)."
   },
   "plugins": [
     {
