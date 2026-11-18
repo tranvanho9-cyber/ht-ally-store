@@ -86,7 +86,7 @@
       "folder": "HT_dxf",
       "rbz_prefix": "HT_dxf",
       "min_su": 2020,
-      "changelog": "Thêm Xếp tấm (chạy không cần thư viện ngoài, dùng được trên Mac) và cải tiến Nesting, Xuất DXF, Gắn label, Chống Bay.",
+      "changelog": "Cập nhật HT dxf v1.1.185: cải tiến và sửa lỗi.",
       "desc_en": "A CNC fabrication toolset in one bar: nesting boards onto sheets, manual sheet layout, DXF export, labeling, anti-float."
     }
   ]
