@@ -51,10 +51,10 @@
       "loader": "HTKiemTra.rb",
       "folder": "HTKiemTra",
       "min_su": 2020,
-      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
+      "changelog": "Cập nhật HT kiểm tra v1.0.9: đưa hàng nút trên màn hình lên sát mép trên.",
       "desc_en": "Check ABF boards: errors, oversize, board type. Sync Nesting and Model by ID, select panels, view info, find ID.",
-      "version": "1.0.7",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HTKiemTra_v1_0_7.rbz",
+      "version": "1.0.9",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HTKiemTra_v1_0_9.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_kiem_tra.png"
     },
     {
