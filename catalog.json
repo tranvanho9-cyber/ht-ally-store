@@ -36,10 +36,10 @@
       "loader": "HT_dung_hinh.rb",
       "folder": "HT_dung_hinh",
       "min_su": 2020,
-      "changelog": "Thêm công cụ HT chùm điểm.",
+      "changelog": "Cập nhật HT dựng hình v1.16.8: cải tiến, sửa lỗi và thêm cổng giấy phép cho cả bộ (hiện miễn phí).",
       "desc_en": "A modeling toolset in one bar: make faces, push blocks, hide/show, split in two, rotate, explode DC, align, dimensions and Lo Ban ruler, slat division, thickness, panel recovery, point cluster.",
-      "version": "1.14.0",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dung_hinh_v1_14_0.rbz",
+      "version": "1.16.8",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dung_hinh_v1_16_8.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_dung_hinh.png"
     },
     {
