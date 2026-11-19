@@ -43,21 +43,6 @@
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_dung_hinh.png"
     },
     {
-      "id": "ht_kiem_tra",
-      "name": "HT kiểm tra",
-      "desc": "Kiểm tra ván ABF: lỗi, vượt khổ, loại ván. Đồng bộ Nesting và Model theo ID, chọn tấm, xem thông tin, tìm ID.",
-      "category": "Kiểm tra",
-      "price": 0,
-      "loader": "HTKiemTra.rb",
-      "folder": "HTKiemTra",
-      "min_su": 2020,
-      "changelog": "Cập nhật HT kiểm tra v1.0.9: đưa hàng nút trên màn hình lên sát mép trên.",
-      "desc_en": "Check ABF boards: errors, oversize, board type. Sync Nesting and Model by ID, select panels, view info, find ID.",
-      "version": "1.0.9",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HTKiemTra_v1_0_9.rbz",
-      "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_kiem_tra.png"
-    },
-    {
       "id": "ht_thong_ke",
       "name": "HT thống kê",
       "desc": "Bộ công cụ thống kê cho ván công nghiệp: đổi tên hàng loạt, in tem nhãn, thống kê và dự toán (xuất Excel), Acrylic (vát cạnh và thống kê cạnh).",
@@ -88,18 +73,18 @@
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_layout.png"
     },
     {
-      "id": "ht_dxf",
-      "name": "HT dxf",
-      "desc": "Bộ công cụ gia công CNC trong một thanh: nesting xếp ván lên tấm, xếp tấm thủ công, xuất DXF, gắn label, chống bay.",
-      "category": "Gia công",
+      "id": "ht_san_xuat",
+      "name": "HT sản xuất",
+      "desc": "Bộ công cụ sản xuất CNC trong một thanh: kiểm tra lỗi, vượt khổ, loại ván; nesting xếp ván lên tấm; xếp tấm thủ công; đồng bộ theo ID; xuất DXF; gắn label; chống bay.",
+      "category": "Sản xuất",
       "price": 0,
-      "loader": "HT_dxf.rb",
-      "folder": "HT_dxf",
+      "loader": "HT_san_xuat.rb",
+      "folder": "HT_san_xuat",
       "min_su": 2020,
-      "changelog": "Cập nhật HT dxf v1.1.185: cải tiến và sửa lỗi.",
-      "desc_en": "A CNC fabrication toolset in one bar: nesting boards onto sheets, manual sheet layout, DXF export, labeling, anti-float.",
-      "version": "1.1.185",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dxf_v1_1_185.rbz"
+      "changelog": "HT dxf đổi tên thành HT sản xuất và gộp thêm Kiểm tra, Đồng bộ (trước đây là HT kiểm tra). Nếu đã cài HT dxf hoặc HT kiểm tra, cài HT sản xuất để thay thế; bản cũ sẽ tự được dọn.",
+      "desc_en": "A CNC production toolset in one bar: check errors, oversize and board type; nest boards onto sheets; manual sheet layout; sync by ID; DXF export; labeling; anti-float.",
+      "version": "1.2.0",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_san_xuat_v1_2_0.rbz"
     }
   ]
 }
