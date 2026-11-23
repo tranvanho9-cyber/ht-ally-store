@@ -75,6 +75,19 @@
       "min_su": 2020,
       "changelog": "Cập nhật HT sản xuất v1.2.24: cải tiến và sửa lỗi.",
       "desc_en": "A CNC production toolset in one bar: check errors, oversize and board type; nest boards onto sheets; manual sheet layout; sync by ID; DXF export; labeling; anti-float."
+    },
+    {
+      "id": "ht_dinamic",
+      "name": "HT dinamic",
+      "desc": "Tạo nhanh model nội thất (tủ áo, tủ bếp, giường, bàn, ghế...) theo thông số sản xuất. Có tab Mẫu, Mẫu của tôi (lưu, xuất và nhập file .htmau), thông số chi tiết, sửa nhanh và Thư viện DC.",
+      "category": "Dựng hình",
+      "price": 0,
+      "loader": "HT_dinamic.rb",
+      "folder": "HT_dinamic",
+      "rbz_prefix": "HT_dinamic",
+      "min_su": 2020,
+      "changelog": "Plugin mới trên HT Ally: tạo nhanh model nội thất theo thông số sản xuất.",
+      "desc_en": "Quickly create furniture models (wardrobes, kitchen cabinets, beds, tables, chairs...) from production parameters. Includes a Templates tab, My templates (save, export and import .htmau files), detailed parameters, quick edit and a DC library."
     }
   ]
 }
