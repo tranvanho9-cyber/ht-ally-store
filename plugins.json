@@ -73,7 +73,7 @@
       "folder": "HT_san_xuat",
       "rbz_prefix": "HT_san_xuat",
       "min_su": 2020,
-      "changelog": "HT dxf đổi tên thành HT sản xuất và gộp thêm Kiểm tra, Đồng bộ (trước đây là HT kiểm tra). Nếu đã cài HT dxf hoặc HT kiểm tra, cài HT sản xuất để thay thế; bản cũ sẽ tự được dọn.",
+      "changelog": "Cập nhật HT sản xuất v1.2.24: cải tiến và sửa lỗi.",
       "desc_en": "A CNC production toolset in one bar: check errors, oversize and board type; nest boards onto sheets; manual sheet layout; sync by ID; DXF export; labeling; anti-float."
     }
   ]
