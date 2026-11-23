@@ -60,7 +60,7 @@
       "folder": "HT_layout",
       "rbz_prefix": "HT_layout",
       "min_su": 2020,
-      "changelog": "Cập nhật HT layout v2.46.8: cải tiến và sửa lỗi.",
+      "changelog": "Cập nhật HT layout v2.46.15: cải tiến và sửa lỗi.",
       "desc_en": "Build A4 layouts (2D drawings) from the model: elevations, sections, detail + overall dimensions, drill / hinge holes, title block, PDF export."
     },
     {
