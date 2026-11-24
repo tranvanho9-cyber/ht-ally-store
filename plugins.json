@@ -8,7 +8,7 @@
   },
   "hub": {
     "rbz_prefix": "HT_Ally",
-    "notes": "Báo thoát đột ngột ngay khi mở lại SketchUp (kiểm tra tiến trình cũ thay vì chờ 4 phút). Số bản các plugin trên HT Ally được đánh lại 1.0.1, 1.0.2..."
+    "notes": "Sửa hiển thị số bản: sau khi nâng cấp HT Ally tự tải lại danh mục, các plugin hiện đúng số 1.0.x. Báo thoát đột ngột ngay khi mở lại SketchUp."
   },
   "plugins": [
     {
