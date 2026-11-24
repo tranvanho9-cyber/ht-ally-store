@@ -104,6 +104,14 @@ def main():
         e = {k: v for k, v in p.items() if k != 'rbz_prefix'}
         # Plugin có phí: file nằm ở kho riêng, version khai báo tay trong plugins.json
         e['version'] = str(p['version']) if (paid and p.get('version')) else '.'.join(map(str, b[0]))
+        # Số bản hiển thị trên HT Ally (1.0.1, 1.0.2...) tách khỏi số phiên bản thật của plugin; so sánh cập nhật vẫn dùng số thật
+        rel = p.get('releases') or {}
+        e['av'] = rel.get(e['version']) or e['version']
+        if e['av'] == e['version'] and rel:
+            print('! %s: chưa khai báo số bản HT Ally cho %s trong "releases"' % (p['id'], e['version']))
+        for c in (e.get('changelog') or []):
+            if isinstance(c, dict):
+                c['av'] = rel.get(str(c.get('version')), c.get('version'))
         if int(e.get('price', 0)) <= 0:
             e['rbz_url'] = url(b[1])
         else:

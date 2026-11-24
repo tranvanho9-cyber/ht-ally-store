@@ -21,9 +21,22 @@
       "loader": "HT_vat_lieu.rb",
       "folder": "HT_vat_lieu",
       "min_su": 2020,
-      "changelog": "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách.",
+      "changelog": [
+        {
+          "version": "3.14.8",
+          "date": "24/11/2026",
+          "items": [
+            "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách."
+          ],
+          "av": "1.0.1"
+        }
+      ],
       "desc_en": "Quickly find and pick materials in the model, .skm libraries (MFC included, download thousands more inside the plugin), filter by color, replace/clean/rename materials in bulk, color boards automatically by grain.",
+      "releases": {
+        "3.14.8": "1.0.1"
+      },
       "version": "3.14.8",
+      "av": "1.0.1",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_vat_lieu_v3_14_8.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_vat_lieu.png"
     },
@@ -36,9 +49,22 @@
       "loader": "HT_dung_hinh.rb",
       "folder": "HT_dung_hinh",
       "min_su": 2020,
-      "changelog": "Cập nhật HT dựng hình v1.16.8: cải tiến, sửa lỗi và thêm cổng giấy phép cho cả bộ (hiện miễn phí).",
+      "changelog": [
+        {
+          "version": "1.16.8",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT dựng hình v1.0.1: cải tiến, sửa lỗi và thêm cổng giấy phép cho cả bộ (hiện miễn phí)."
+          ],
+          "av": "1.0.1"
+        }
+      ],
       "desc_en": "A modeling toolset in one bar: make faces, push blocks, hide/show, split in two, rotate, explode DC, align, dimensions and Lo Ban ruler, slat division, thickness, panel recovery, point cluster.",
+      "releases": {
+        "1.16.8": "1.0.1"
+      },
       "version": "1.16.8",
+      "av": "1.0.1",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dung_hinh_v1_16_8.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_dung_hinh.png"
     },
@@ -51,9 +77,22 @@
       "loader": "HT_thong_ke.rb",
       "folder": "HT_thong_ke",
       "min_su": 2020,
-      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
+      "changelog": [
+        {
+          "version": "1.6.5",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT thống kê v1.0.1: cải tiến và sửa lỗi."
+          ],
+          "av": "1.0.1"
+        }
+      ],
       "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics).",
+      "releases": {
+        "1.6.5": "1.0.1"
+      },
       "version": "1.6.5",
+      "av": "1.0.1",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_5.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_thong_ke.png"
     },
@@ -66,9 +105,22 @@
       "loader": "HT_layout.rb",
       "folder": "HT_layout",
       "min_su": 2020,
-      "changelog": "Cập nhật HT layout v2.46.15: cải tiến và sửa lỗi.",
+      "changelog": [
+        {
+          "version": "2.46.15",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT layout v1.0.1: cải tiến và sửa lỗi."
+          ],
+          "av": "1.0.1"
+        }
+      ],
       "desc_en": "Build A4 layouts (2D drawings) from the model: elevations, sections, detail + overall dimensions, drill / hinge holes, title block, PDF export.",
+      "releases": {
+        "2.46.15": "1.0.1"
+      },
       "version": "2.46.15",
+      "av": "1.0.1",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_layout_v2_46_15.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_layout.png"
     },
@@ -81,9 +133,22 @@
       "loader": "HT_san_xuat.rb",
       "folder": "HT_san_xuat",
       "min_su": 2020,
-      "changelog": "Cập nhật HT sản xuất v1.2.24: cải tiến và sửa lỗi.",
+      "changelog": [
+        {
+          "version": "1.2.24",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT sản xuất v1.0.1: cải tiến và sửa lỗi."
+          ],
+          "av": "1.0.1"
+        }
+      ],
       "desc_en": "A CNC production toolset in one bar: check errors, oversize and board type; nest boards onto sheets; manual sheet layout; sync by ID; DXF export; labeling; anti-float.",
+      "releases": {
+        "1.2.24": "1.0.1"
+      },
       "version": "1.2.24",
+      "av": "1.0.1",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_san_xuat_v1_2_24.rbz"
     },
     {
@@ -95,9 +160,22 @@
       "loader": "HT_dinamic.rb",
       "folder": "HT_dinamic",
       "min_su": 2020,
-      "changelog": "Plugin mới trên HT Ally: tạo nhanh model nội thất theo thông số sản xuất.",
+      "changelog": [
+        {
+          "version": "1.26.246",
+          "date": "24/11/2026",
+          "items": [
+            "Plugin mới trên HT Ally: tạo nhanh model nội thất theo thông số sản xuất."
+          ],
+          "av": "1.0.1"
+        }
+      ],
       "desc_en": "Quickly create furniture models (wardrobes, kitchen cabinets, beds, tables, chairs...) from production parameters. Includes a Templates tab, My templates (save, export and import .htmau files), detailed parameters, quick edit and a DC library.",
+      "releases": {
+        "1.26.246": "1.0.1"
+      },
       "version": "1.26.246",
+      "av": "1.0.1",
       "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dinamic_v1_26_246.rbz"
     }
   ]

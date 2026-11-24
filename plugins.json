@@ -8,7 +8,7 @@
   },
   "hub": {
     "rbz_prefix": "HT_Ally",
-    "notes": "Báo thoát đột ngột sớm hơn khi mở lại SketchUp (còn 1 giây, trước là 12 giây)."
+    "notes": "Báo thoát đột ngột ngay khi mở lại SketchUp (kiểm tra tiến trình cũ thay vì chờ 4 phút). Số bản các plugin trên HT Ally được đánh lại 1.0.1, 1.0.2..."
   },
   "plugins": [
     {
@@ -21,8 +21,19 @@
       "folder": "HT_vat_lieu",
       "rbz_prefix": "HT_vat_lieu",
       "min_su": 2020,
-      "changelog": "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách.",
-      "desc_en": "Quickly find and pick materials in the model, .skm libraries (MFC included, download thousands more inside the plugin), filter by color, replace/clean/rename materials in bulk, color boards automatically by grain."
+      "changelog": [
+        {
+          "version": "3.14.8",
+          "date": "24/11/2026",
+          "items": [
+            "Tab Tải vật liệu (thư viện mã hóa tải từ kho), lọc màu, gần đây, xem trước to, thay/dọn/đổi tên hàng loạt, nhóm yêu thích, xoá thư mục ngay trong danh sách."
+          ]
+        }
+      ],
+      "desc_en": "Quickly find and pick materials in the model, .skm libraries (MFC included, download thousands more inside the plugin), filter by color, replace/clean/rename materials in bulk, color boards automatically by grain.",
+      "releases": {
+        "3.14.8": "1.0.1"
+      }
     },
     {
       "id": "ht_dung_hinh",
@@ -34,8 +45,19 @@
       "folder": "HT_dung_hinh",
       "rbz_prefix": "HT_dung_hinh",
       "min_su": 2020,
-      "changelog": "Cập nhật HT dựng hình v1.16.8: cải tiến, sửa lỗi và thêm cổng giấy phép cho cả bộ (hiện miễn phí).",
-      "desc_en": "A modeling toolset in one bar: make faces, push blocks, hide/show, split in two, rotate, explode DC, align, dimensions and Lo Ban ruler, slat division, thickness, panel recovery, point cluster."
+      "changelog": [
+        {
+          "version": "1.16.8",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT dựng hình v1.0.1: cải tiến, sửa lỗi và thêm cổng giấy phép cho cả bộ (hiện miễn phí)."
+          ]
+        }
+      ],
+      "desc_en": "A modeling toolset in one bar: make faces, push blocks, hide/show, split in two, rotate, explode DC, align, dimensions and Lo Ban ruler, slat division, thickness, panel recovery, point cluster.",
+      "releases": {
+        "1.16.8": "1.0.1"
+      }
     },
     {
       "id": "ht_thong_ke",
@@ -47,8 +69,19 @@
       "folder": "HT_thong_ke",
       "rbz_prefix": "HT_thong_ke",
       "min_su": 2020,
-      "changelog": "Cập nhật HT thống kê v1.6.5: cải tiến và sửa lỗi.",
-      "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics)."
+      "changelog": [
+        {
+          "version": "1.6.5",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT thống kê v1.0.1: cải tiến và sửa lỗi."
+          ]
+        }
+      ],
+      "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics).",
+      "releases": {
+        "1.6.5": "1.0.1"
+      }
     },
     {
       "id": "ht_layout",
@@ -60,8 +93,19 @@
       "folder": "HT_layout",
       "rbz_prefix": "HT_layout",
       "min_su": 2020,
-      "changelog": "Cập nhật HT layout v2.46.15: cải tiến và sửa lỗi.",
-      "desc_en": "Build A4 layouts (2D drawings) from the model: elevations, sections, detail + overall dimensions, drill / hinge holes, title block, PDF export."
+      "changelog": [
+        {
+          "version": "2.46.15",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT layout v1.0.1: cải tiến và sửa lỗi."
+          ]
+        }
+      ],
+      "desc_en": "Build A4 layouts (2D drawings) from the model: elevations, sections, detail + overall dimensions, drill / hinge holes, title block, PDF export.",
+      "releases": {
+        "2.46.15": "1.0.1"
+      }
     },
     {
       "id": "ht_san_xuat",
@@ -73,8 +117,19 @@
       "folder": "HT_san_xuat",
       "rbz_prefix": "HT_san_xuat",
       "min_su": 2020,
-      "changelog": "Cập nhật HT sản xuất v1.2.24: cải tiến và sửa lỗi.",
-      "desc_en": "A CNC production toolset in one bar: check errors, oversize and board type; nest boards onto sheets; manual sheet layout; sync by ID; DXF export; labeling; anti-float."
+      "changelog": [
+        {
+          "version": "1.2.24",
+          "date": "24/11/2026",
+          "items": [
+            "Cập nhật HT sản xuất v1.0.1: cải tiến và sửa lỗi."
+          ]
+        }
+      ],
+      "desc_en": "A CNC production toolset in one bar: check errors, oversize and board type; nest boards onto sheets; manual sheet layout; sync by ID; DXF export; labeling; anti-float.",
+      "releases": {
+        "1.2.24": "1.0.1"
+      }
     },
     {
       "id": "ht_dinamic",
@@ -86,8 +141,19 @@
       "folder": "HT_dinamic",
       "rbz_prefix": "HT_dinamic",
       "min_su": 2020,
-      "changelog": "Plugin mới trên HT Ally: tạo nhanh model nội thất theo thông số sản xuất.",
-      "desc_en": "Quickly create furniture models (wardrobes, kitchen cabinets, beds, tables, chairs...) from production parameters. Includes a Templates tab, My templates (save, export and import .htmau files), detailed parameters, quick edit and a DC library."
+      "changelog": [
+        {
+          "version": "1.26.246",
+          "date": "24/11/2026",
+          "items": [
+            "Plugin mới trên HT Ally: tạo nhanh model nội thất theo thông số sản xuất."
+          ]
+        }
+      ],
+      "desc_en": "Quickly create furniture models (wardrobes, kitchen cabinets, beds, tables, chairs...) from production parameters. Includes a Templates tab, My templates (save, export and import .htmau files), detailed parameters, quick edit and a DC library.",
+      "releases": {
+        "1.26.246": "1.0.1"
+      }
     }
   ]
 }
