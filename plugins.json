@@ -71,6 +71,13 @@
       "min_su": 2020,
       "changelog": [
         {
+          "version": "1.6.16",
+          "date": "25/11/2026",
+          "items": [
+            "Cập nhật HT thống kê v1.0.2: cải tiến và sửa lỗi."
+          ]
+        },
+        {
           "version": "1.6.5",
           "date": "24/11/2026",
           "items": [
@@ -80,7 +87,8 @@
       ],
       "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics).",
       "releases": {
-        "1.6.5": "1.0.1"
+        "1.6.5": "1.0.1",
+        "1.6.16": "1.0.2"
       }
     },
     {
