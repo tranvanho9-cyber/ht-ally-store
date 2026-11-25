@@ -8,7 +8,7 @@
   },
   "hub": {
     "rbz_prefix": "HT_Ally",
-    "notes": "Sửa hiển thị số bản: sau khi nâng cấp HT Ally tự tải lại danh mục, các plugin hiện đúng số 1.0.x. Báo thoát đột ngột ngay khi mở lại SketchUp."
+    "notes": "Nút quay về bản trước hiện số theo kiểu mới (ví dụ Về v1.0.1)."
   },
   "plugins": [
     {
