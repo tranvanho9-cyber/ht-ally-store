@@ -79,6 +79,14 @@
       "min_su": 2020,
       "changelog": [
         {
+          "version": "1.6.17",
+          "date": "26/11/2026",
+          "items": [
+            "Cập nhật HT thống kê v1.0.3: khung thông tin in trên báo cáo gọn hơn trong thanh bên, có ô bật/tắt in thông tin lên PDF và Excel; thanh bên báo cáo Acrylic cuộn được."
+          ],
+          "av": "1.0.3"
+        },
+        {
           "version": "1.6.16",
           "date": "25/11/2026",
           "items": [
@@ -98,11 +106,12 @@
       "desc_en": "Statistics toolset for panel furniture: bulk rename, print labels, statistics and estimates (Excel export), Acrylic (edge bevel and edge statistics).",
       "releases": {
         "1.6.5": "1.0.1",
-        "1.6.16": "1.0.2"
+        "1.6.16": "1.0.2",
+        "1.6.17": "1.0.3"
       },
-      "version": "1.6.16",
-      "av": "1.0.2",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_16.rbz",
+      "version": "1.6.17",
+      "av": "1.0.3",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_thong_ke_v1_6_17.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_thong_ke.png"
     },
     {
