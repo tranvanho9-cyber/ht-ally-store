@@ -135,6 +135,13 @@
       "min_su": 2020,
       "changelog": [
         {
+          "version": "1.2.47",
+          "date": "27/11/2026",
+          "items": [
+            "Cập nhật HT sản xuất v1.0.3: xem trước vùng khi rê chuột trong Xếp tấm, nét xem trước xuất DXF đậm rõ hơn, nút trên màn hình thống nhất cỡ 112×34, gỡ nút hướng dẫn và mã chẩn đoán."
+          ]
+        },
+        {
           "version": "1.2.40",
           "date": "26/11/2026",
           "items": [
@@ -152,7 +159,8 @@
       "desc_en": "A CNC production toolset in one bar: check errors, oversize and board type; nest boards onto sheets; manual sheet layout; sync by ID; DXF export; labeling; anti-float.",
       "releases": {
         "1.2.24": "1.0.1",
-        "1.2.40": "1.0.2"
+        "1.2.40": "1.0.2",
+        "1.2.47": "1.0.3"
       }
     },
     {
