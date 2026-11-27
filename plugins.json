@@ -14,7 +14,7 @@
     {
       "id": "ht_vat_lieu",
       "name": "HT vật liệu",
-      "desc": "Tìm và chọn nhanh vật liệu trong model, thư viện .skm (MFC có sẵn, tải thêm hàng nghìn vật liệu ngay trong plugin), lọc theo màu, thay/dọn/đổi tên vật liệu hàng loạt, tô màu tự xoay vân.",
+      "desc": "Tìm và chọn nhanh vật liệu trong model, thư viện .skm (MFC tự tải lần đầu mở, tải thêm hàng nghìn vật liệu ngay trong plugin), lọc theo màu, thay/dọn/đổi tên vật liệu hàng loạt, tô màu tự xoay vân.",
       "category": "Vật liệu",
       "price": 0,
       "loader": "HT_vat_lieu.rb",
@@ -23,6 +23,17 @@
       "min_su": 2020,
       "changelog": [
         {
+          "version": "3.14.15",
+          "date": "27/11/2026",
+          "items": [
+            "Sửa lỗi tải thư viện MFC báo sai mã kiểm tra (tự thử tải lại nguyên file).",
+            "Đổi tên màu đang dùng thì ô Yêu thích đổi tên theo, file gốc thư viện giữ nguyên.",
+            "Danh sách thư mục dễ phân biệt hơn; ẩn hàng thư viện phía trên để rộng chỗ.",
+            "Ảnh xem to khi rê chuột hiện ở mép trên, không che ô màu.",
+            "Thông báo Chọn màu / Xóa màu ngắn gọn, chữ nhỏ hơn; bỏ nút hướng dẫn."
+          ]
+        },
+        {
           "version": "3.14.8",
           "date": "24/11/2026",
           "items": [
@@ -30,9 +41,10 @@
           ]
         }
       ],
-      "desc_en": "Quickly find and pick materials in the model, .skm libraries (MFC included, download thousands more inside the plugin), filter by color, replace/clean/rename materials in bulk, color boards automatically by grain.",
+      "desc_en": "Quickly find and pick materials in the model, .skm libraries (MFC downloads automatically on first launch, thousands more inside the plugin), filter by color, replace/clean/rename materials in bulk, color boards automatically by grain.",
       "releases": {
-        "3.14.8": "1.0.1"
+        "3.14.8": "1.0.1",
+        "3.14.15": "1.0.2"
       }
     },
     {
