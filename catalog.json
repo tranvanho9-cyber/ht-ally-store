@@ -178,6 +178,16 @@
       "min_su": 2020,
       "changelog": [
         {
+          "version": "1.2.61",
+          "date": "28/11/2026",
+          "items": [
+            "Gỡ nút hướng dẫn ở hộp thoại cài đặt Xếp tấm; bỏ các lệnh/in thông tin chẩn đoán (Đồng bộ, Gắn label, Xếp tấm, Nesting).",
+            "Nút trên màn hình thống nhất 112×34; icon đồng nhất màu #4A9DEB.",
+            "Tên hiển thị gọn (bỏ ký tự @), tác giả hiển thị là HT."
+          ],
+          "av": "1.0.4"
+        },
+        {
           "version": "1.2.47",
           "date": "27/11/2026",
           "items": [
@@ -206,11 +216,12 @@
       "releases": {
         "1.2.24": "1.0.1",
         "1.2.40": "1.0.2",
-        "1.2.47": "1.0.3"
+        "1.2.47": "1.0.3",
+        "1.2.61": "1.0.4"
       },
-      "version": "1.2.47",
-      "av": "1.0.3",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_san_xuat_v1_2_47.rbz"
+      "version": "1.2.61",
+      "av": "1.0.4",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_san_xuat_v1_2_61.rbz"
     },
     {
       "id": "ht_dinamic",
