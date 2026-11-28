@@ -64,6 +64,17 @@
       "min_su": 2020,
       "changelog": [
         {
+          "version": "1.17.39",
+          "date": "28/11/2026",
+          "items": [
+            "Bỏ nút và khung hướng dẫn ở các hộp thoại; gỡ lệnh DEBUG của Rã DC.",
+            "Cắt đôi, Chùm điểm, Xóa rác nhẹ hơn: bỏ phần in thông tin chẩn đoán.",
+            "Nút vẽ trên màn hình thống nhất 112×34; icon đồng nhất màu #4A9DEB.",
+            "Tác giả hiển thị là HT."
+          ],
+          "av": "1.0.2"
+        },
+        {
           "version": "1.16.8",
           "date": "24/11/2026",
           "items": [
@@ -74,11 +85,12 @@
       ],
       "desc_en": "A modeling toolset in one bar: make faces, push blocks, hide/show, split in two, rotate, explode DC, align, dimensions and Lo Ban ruler, slat division, thickness, panel recovery, point cluster.",
       "releases": {
-        "1.16.8": "1.0.1"
+        "1.16.8": "1.0.1",
+        "1.17.39": "1.0.2"
       },
-      "version": "1.16.8",
-      "av": "1.0.1",
-      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dung_hinh_v1_16_8.rbz",
+      "version": "1.17.39",
+      "av": "1.0.2",
+      "rbz_url": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/rbz/HT_dung_hinh_v1_17_39.rbz",
       "icon": "https://raw.githubusercontent.com/tranvanho9-cyber/ht-ally-store/main/icons/ht_dung_hinh.png"
     },
     {
